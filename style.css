@@ -1,0 +1,34 @@
+.resume-timeline {
+            border-left: 2px solid #e9ecef;
+            position: relative;
+            padding-left: 30px;
+        }
+.resume-timeline-item::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -37px; /* Tiksliai ant linijos */
+    top: 5px;
+    width: 14px;
+    height: 14px;
+    background: #0d6efd;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    z-index: 1;
+}
+/* Progreso juostų spalva */
+.theme-progress-bar-dark {
+    background-color: #0d6efd !important;
+}
+.progress {
+    height: 10px;
+    background-color: #e9ecef;
+}
+/* Nuorodų stilius */
+.resume-timeline a {
+    text-decoration: none;
+    color: #0d6efd;
+}
+.resume-timeline a:hover {
+    text-decoration: underline;
+}
